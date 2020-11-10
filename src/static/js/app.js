@@ -1,3 +1,4 @@
+
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
@@ -53,7 +54,7 @@ function TodoListCard() {
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
-                <p className="text-center">No items yet! Add one above!</p>
+                <p className="text-center">jakasfsdjgdfgjd olsun!</p>
             )}
             {items.map(item => (
                 <ItemDisplay
